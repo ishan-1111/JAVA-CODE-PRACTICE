@@ -1,0 +1,8 @@
+| Concept          | Key Point                                                    |
+| ---------------- | ------------------------------------------------------------ |
+| Stack            | Automatic allocation, fast, function-local variables         |
+| Heap             | Dynamic allocation using `new`, manual cleanup with `delete` |
+| Memory Leak      | Allocated memory not released                                |
+| Dangling Pointer | Pointer to freed memory                                      |
+| Wild Pointer     | Uninitialized pointer                                        |
+| Null Pointer     | `nullptr`, points to nothing                                 |
