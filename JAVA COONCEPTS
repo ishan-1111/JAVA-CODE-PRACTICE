@@ -1,0 +1,14 @@
+| Concept                | Key Point (Java)                                                                                                                                               |
+| ---------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Stack Memory**       | Stores method calls, local primitive variables, and object references. Automatically managed. 
+
+| **Heap Memory**        | Stores objects and arrays created using `new`. Managed by the Garbage Collector.   
+
+| **Memory Leak**        | Objects are no longer needed but are still reachable through references, preventing Garbage Collection.   
+
+| **Dangling Reference** | Not possible in Java because objects cannot be manually freed. References become `null` rather than pointing to deallocated memory. 
+
+| **Wild Reference**     | References are automatically initialized (`null` for instance variables). Local references must be initialized before use,
+                           so true wild pointers do not exist. 
+
+| **Null Reference**     | A reference variable holding `null`, meaning it does not refer to any object. Accessing it causes a `NullPointerException`.                                    |
