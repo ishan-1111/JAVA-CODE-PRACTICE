@@ -1,7 +1,5 @@
 # JAVA-CODE-PRACTICE
 
-├── PROGRAMS/
-│
 ├── Control-Flow/        # if-else, switch, loops
 │
 ├── Methods/             # Method-based problems
@@ -36,7 +34,7 @@
 │
 ├── Design-Patterns/     # Singleton, Factory, Observer, etc.
 │
-└── Projects/            # Mini and major projects
+└── Projects/           
     ├── Student-Management-System/
     ├── Library-Management-System/
     ├── Bank-Management-System/
