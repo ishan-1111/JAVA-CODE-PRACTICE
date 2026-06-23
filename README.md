@@ -1,4 +1,4 @@
-# JAVA-CODE-PRACTICE
+# JAVA-CODING-PRACTICE
 
 ├── Control-Flow/        # if-else, switch, loops
 │
