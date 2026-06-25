@@ -188,22 +188,6 @@ public class Main {
 }
 
 ==========================================================================================================================================
-public class StringContainsVowels {
-
-    public static void main(String[] args) {
-        System.out.println(stringContainsVowels("Hello")); // true
-        System.out.println(stringContainsVowels("TV"));    // false
-        System.out.println(stringContainsVowels("World")); // true
-        System.out.println(stringContainsVowels("Rhythm")); // false
-    }
-
-    public static boolean stringContainsVowels(String input) {
-        // Convert to lowercase and check if it contains any vowel
-        return input.toLowerCase().matches(".*[aeiou].*");
-    }
-}
-
-==========================================================================================================================================
 public class LargestNumber {
     public static void main(String[] args) {
         int[] numbers = {10, 25, 3, 42, 18};
