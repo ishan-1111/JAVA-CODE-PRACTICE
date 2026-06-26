@@ -168,26 +168,6 @@ public static void main(String[] args) {
 }
 
 ==========================================================================================================================================
-class Student {
-    private String name;
-
-    public void setName(String name) {
-        this.name = name;
-    }
-    public String getName() {
-        return name;
-    }
-}
-
-public class Main {
-    public static void main(String[] args) {
-        Student s = new Student();
-        s.setName("Ishan");
-        System.out.println("Student Name: " + s.getName());
-    }
-}
-
-==========================================================================================================================================
 public class LargestNumber {
     public static void main(String[] args) {
         int[] numbers = {10, 25, 3, 42, 18};
@@ -224,24 +204,6 @@ public class PrintFibonacci {
      printFibonacciSequence(10);
  }
 
-}
-
-==========================================================================================================================================
-public class LargestInArray {
-    public static int findLargest(int[] array) {
-        int max = array[0];
-        for (int i = 1; i < array.length; i++) {
-            if (array[i] > max) {
-                max = array[i];
-            }
-        }
-        return max;
-    }
-
-    public static void main(String[] args) {
-        int[] numbers = {3, 9, 1, 5, 7};
-        System.out.println("Largest element is: " + findLargest(numbers));
-    }
 }
 
 ==========================================================================================================================================
